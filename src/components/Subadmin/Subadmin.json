@@ -1,0 +1,60 @@
+[
+    {
+      "name": "Rajan Singh",
+      "age": 32,
+      "department": "Finance",
+      "employeeType": "Permanent",
+      "dateOfJoining": "10/05/2022",
+      "position": "Senior Consultant"
+    },
+    {
+      "name": "Shalini Sharma",
+      "age": 26,
+      "department": "HRM",
+      "employeeType": "Permanent",
+      "dateOfJoining": "01/06/2022",
+      "position": "Human Resource"
+    },
+    {
+      "name": "Brijesh Kumar",
+      "age": 26,
+      "department": "Finance",
+      "employeeType": "Permanent",
+      "dateOfJoining": "15/06/2022",
+      "position": "Junior Consultant"
+    },
+    {
+      "name": "Ravish",
+      "age": 28,
+      "department": "Marketing",
+      "employeeType": "Permanent",
+      "dateOfJoining": "08/07/2022",
+      "position": "Senior Manager",
+      "highlight": true
+    },
+    {
+      "name": "Soumya Rai",
+      "age": 25,
+      "department": "Marketing",
+      "employeeType": "Permanent",
+      "dateOfJoining": "28/07/2022",
+      "position": "Junior Manager"
+    },
+    {
+      "name": "Vishal Kumar",
+      "age": 20,
+      "department": "Accounting",
+      "employeeType": "Permanent",
+      "dateOfJoining": "29/07/2022",
+      "position": "Junior Account"
+    },
+    {
+      "name": "Shreeman Thapa",
+      "age": 22,
+      "department": "Accounting",
+      "employeeType": "Permanent",
+      "dateOfJoining": "29/07/2022",
+      "position": "Junior Account",
+      "highlight": true
+    }
+  ]

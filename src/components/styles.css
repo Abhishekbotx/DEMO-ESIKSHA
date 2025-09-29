@@ -1,0 +1,207 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+@keyframes animate-slide-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logos {
+  display: flex;
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-flex;
+  animation: animate-slide-infinite 10s linear infinite;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+.overflow-hidden {
+  position: relative;
+}
+
+.overflow-hidden .absolute {
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  @keyframes slide-infinite-mobile {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logos-slide {
+    animation: slide-infinite-mobile 30s linear infinite;
+  }
+}
+
+
+.curved-top {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #21295c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #17c34b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #52d57e;
+}
+
+
+
+.semi-circle {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  border-top-left-radius: 100% 100px;
+  border-top-right-radius: 100% 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.back {
+  /* background-image: url('../src/img/Rectangle\ 107.png'); */
+  /* background:#f2f2f2; */
+  /* border-radius: 2px;  */
+  border: 2px solid;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.smallscreen {
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+.subscribesmallscreen {
+  /* Default styles for the class, if any */
+  color: black;
+  text-indent: -5px;
+}
+
+/* Media query for screens between 1024px and 1288px */
+@media (min-width: 1024px) and (max-width: 1288px) {
+  .subscribesmallscreen {
+    font-size: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .prDiv {
+    width: 7rem !important;
+    height: 3rem !important;
+    gap: 0.4rem !important;
+  }
+
+  .prh1 {
+    font-size: 0.7rem !important;
+  }
+
+  .primg {
+    width: 1.5rem !important;
+  }
+
+  .primgdown {
+    width: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .prDiv {
+    width: 6rem !important;
+    height: 3rem !important;
+    gap: 0.4rem !important;
+  }
+
+  .prh1 {
+    font-size: 0.5rem !important;
+  }
+
+  .primg {
+    width: 1.2rem !important;
+  }
+
+  .primgdown {
+    width: 3.5rem !important;
+  }
+}
+
+.slide-item {
+  margin: 0 10px; /* Adjust the margin to create gaps */
+  min-height: 300px; /* Set a minimum height for the slides */
+}

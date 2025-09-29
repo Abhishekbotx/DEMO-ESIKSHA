@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Adarsh Gupta",
+    "avatar": "https://pbs.twimg.com/profile_images/1353950728767717377/avq7kPZ8_400x400.jpg",
+    "profession": "Software Engineer",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.8
+  },
+  {
+    "name": "Dia Goel",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-dia.jpg",
+    "profession": "Digital Marketer",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.7
+  },
+  {
+    "name": "Trilok Singh",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-love.jpg",
+    "profession": "Graphic Designer",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.8
+  },
+  {
+    "name": "Ria Sharma",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-peehu.jpg",
+    "profession": "UX/UI Designer",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.6
+  },
+  {
+    "name": "Rahul Mehta",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-vinay.jpg",
+    "profession": "Project Manager",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 5.0
+  },
+  {
+    "name": "Ishita Gupta",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-naina.jpg",
+    "profession": "Content Writer",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.9
+  },
+  {
+    "name": "Arjun Singh",
+    "avatar": "https://orbosyscorp.com/img/digital-marketing-students/orbosys-abhijeet.jpg",
+    "profession": "SEO Specialist",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.7
+  },
+  {
+    "name": "Neha Malhotra",
+    "avatar": "https://media.licdn.com/dms/image/D4D03AQHpW_7L2wFcZw/profile-displayphoto-shrink_800_800/0/1675281637541?e=2147483647&v=beta&t=eeYoK3hwYMCVAtkaaqwc0P-IPeEvCzEjR-bb_PKC94o",
+    "profession": "Business Analyst",
+    "review": "Lorem ipsum dolor sit amet, consectetur. Incidunt fugiat et prom quis ut netus quis eget diam.",
+    "rating": 4.8
+  }
+]
